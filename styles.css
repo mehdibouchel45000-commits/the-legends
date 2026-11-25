@@ -16,3 +16,5 @@
 .day.has-event.today .number{color:#f5d173;box-shadow:0 0 0 1px #b8994c}
 .day:focus-visible{outline:2px solid #f4d27b;outline-offset:1px}
 @media(min-width:750px){.day{aspect-ratio:1.05}.day.has-event .number{font-size:13px}}
+
+.calendarTile:has(.approvedPoster){background:#17171b;opacity:1}.calendarTile .approvedPoster{position:absolute;inset:0;width:100%;height:100%;object-fit:fill;display:block}.calendarTile.past:has(.approvedPoster){opacity:.55}.calendarTile.cancelled:has(.approvedPoster){opacity:.4}.day{aspect-ratio:1}.calendarTile.discovered{filter:grayscale(1)}.event-popup{background:#0008;align-items:center;justify-content:center;padding:0;overflow:hidden;backdrop-filter:blur(1px)}.event-popup .modal{margin:0;width:90%;max-width:650px;height:86dvh;max-height:86dvh;overflow-y:auto;overscroll-behavior:contain;border-radius:19px;border:1px solid #c8a04b;box-shadow:0 14px 65px #000c,0 0 14px #b58c3933}.event-popup .modalhead{position:sticky;top:-20px;background:#151519;z-index:2;padding:8px 0}body:has(.event-popup){overflow:hidden}
