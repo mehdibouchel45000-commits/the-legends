@@ -1,0 +1,26 @@
+name: Découverte des soirées
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '17 13 * * *'
+permissions:
+  contents: write
+concurrency:
+  group: legends-discovery
+  cancel-in-progress: false
+jobs:
+  collect:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: pip install beautifulsoup4
+      - run: python scripts/discover.py
+      - run: |
+          git config user.name "legends-discovery[bot]"
+          git config user.email "legends-discovery[bot]@users.noreply.github.com"
+          git add discoveries.json
+          git diff --cached --quiet || git commit -m "Actualiser les annonces publiques"
+          git push
