@@ -1,0 +1,61 @@
+{
+  "updated_at": "2026-11-24",
+  "events": [
+    {
+      "id": "web:Cirque de Boudoir:2026-12-31:Carnavalesque New Year's Eve 2026",
+      "organizer": "Cirque de Boudoir",
+      "title": "Carnavalesque New Year's Eve 2026",
+      "date": "2026-12-31",
+      "time": "21:00",
+      "place": "Théâtre Paradoxe, Montréal",
+      "url": "https://www.cirquedeboudoir.com/en/events/2026-12_carnavalesque-new-years-eve.php",
+      "description": "Événement annoncé sur la source liée.",
+      "status": "discovered",
+      "visibility": "group",
+      "poster_url": "",
+      "created_by": "web"
+    },
+    {
+      "id": "web:Luxuria:2026-12-31:Extravaganza New Years Eve 2027",
+      "organizer": "Luxuria",
+      "title": "Extravaganza New Years Eve 2027",
+      "date": "2026-12-31",
+      "time": "",
+      "place": "Complexe Luxuria, Montréal",
+      "url": "https://www.clubluxuria.ca/event-details/extravaganza-new-years-eve-2027",
+      "description": "Événement annoncé sur la source liée.",
+      "status": "discovered",
+      "visibility": "group",
+      "poster_url": "",
+      "created_by": "web"
+    },
+    {
+      "id": "web:L'Orage:2026-12-19:Bal en blanc – édition givrée",
+      "organizer": "L'Orage",
+      "title": "Bal en blanc – édition givrée",
+      "date": "2026-12-19",
+      "time": "",
+      "place": "L'Orage, Montréal",
+      "url": "https://www.orage.club/post/samedi-19-dec-2026",
+      "description": "Événement annoncé sur la source liée.",
+      "status": "discovered",
+      "visibility": "group",
+      "poster_url": "",
+      "created_by": "web"
+    },
+    {
+      "id": "web:Café Cléopâtre:2026-12-18:Candyass Cabaret Beyond 100",
+      "organizer": "Café Cléopâtre",
+      "title": "Candyass Cabaret Beyond 100",
+      "date": "2026-12-18",
+      "time": "21:00",
+      "place": "Café Cléopâtre, Montréal",
+      "url": "https://www.eventbrite.ca/e/candyass-cabaret-beyond-100-tickets-2004041554236",
+      "description": "Événement annoncé sur la source liée.",
+      "status": "discovered",
+      "visibility": "group",
+      "poster_url": "",
+      "created_by": "web"
+    }
+  ]
+}
